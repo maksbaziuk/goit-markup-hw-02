@@ -29,7 +29,6 @@ a {
 .feature-list-title,
 .team-title,
 .team-list-title,
-.portfolio-title,
 .portfolio-title-list {
   color: #2e2f42;
 }
@@ -74,13 +73,14 @@ a {
   font-size: 56px;
   line-height: 1.07143;
   letter-spacing: 0.02em;
+  text-align: center;
   color: #fff;
 }
 
 .hero-banner-button {
   font-weight: 500;
   font-size: 16px;
-  line-height: 1.5;
+  line-height: 1.07;
   letter-spacing: 0.04em;
   color: #fff;
   background-color: #4d5ae5;
@@ -90,6 +90,10 @@ a {
 .hero-banner-button:hover,
 .hero-banner-button:focus {
   background-color: #404bbf;
+}
+
+.feature-list {
+  background-color: #ffffff;
 }
 
 .feature-list-title {
@@ -112,8 +116,10 @@ a {
 .team-title {
   font-weight: 700;
   font-size: 36px;
-  line-height: 1.11111;
+  text-align: center;
+  line-height: 1.11;
   letter-spacing: 0.02em;
+  text-transform: capitalize;
 }
 
 .team-list-title {
@@ -121,19 +127,24 @@ a {
   font-size: 20px;
   line-height: 1.2;
   letter-spacing: 0.02em;
+  text-align: center;
 }
 
 .team-list-title-text {
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
+  text-align: center;
 }
 
 .portfolio-title {
   font-weight: 700;
   font-size: 36px;
-  line-height: 1.11111;
+  text-align: center;
+  line-height: 1.11;
   letter-spacing: 0.02em;
+  text-transform: capitalize;
+  color: #2e2f42;
 }
 
 .portfolio-list-title {
